@@ -14,10 +14,8 @@ def new_numb(n:int=1001) -> None:
     return None
 
 def get_input(filename:str='unique') -> list:
-    """
-    Reader from filename and return a list of number
-
-    @@filename@@ Name of a file
-    """
     L = read(filename);
     return L
+
+    
+
