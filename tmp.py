@@ -1,10 +1,9 @@
-#!/usr/bin/env python3.5
-
-from utilmod.reader import *
 
 
 
 
+L = [1,2,3,4]
 
+S = ' '.join(str(x) for x in L)
 
-
+print(S)
